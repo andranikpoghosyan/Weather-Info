@@ -1,0 +1,45 @@
+.day_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: rgb(231, 231, 231);
+  border-radius: 15px;
+  gap: 10px;
+  padding: 0px 30px;
+  transition: 0.3s;
+
+  width: 100%;
+
+  p {
+    color: #808080;
+  }
+
+  &:hover {
+    transition: 0.3s;
+    transform: translateY(-3px);
+    cursor: pointer;
+  }
+}
+
+.forecast {
+  margin-top: 20px;
+}
+.weather_icon_img {
+  width: 60px;
+}
+
+.forecast_days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 20px;
+}
+
+.forecast-details {
+  margin-top: 20px;
+}
